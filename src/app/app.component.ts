@@ -77,6 +77,7 @@ export class AppComponent {
       this.valid[id] = {}
     }
     this.valid[id][key] = e.target.validity.valid
+    console.log(this.dataSource);
   }
 
   disableSubmit(id: number) {
