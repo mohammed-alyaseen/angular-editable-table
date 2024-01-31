@@ -10,11 +10,6 @@ export interface User {
 
 export const UserColumns = [
   {
-    key: 'isSelected',
-    type: 'isSelected',
-    label: '',
-  },
-  {
     key: 'firstName',
     type: 'text',
     label: 'First Name',
@@ -31,11 +26,6 @@ export const UserColumns = [
     label: 'Email',
     required: true,
     pattern: '.+@.+',
-  },
-  {
-    key: 'birthDate',
-    type: 'date',
-    label: 'Date of Birth',
   },
   {
     key: 'isEdit',
